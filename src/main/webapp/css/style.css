@@ -1,0 +1,114 @@
+body{
+  font-family: arial;
+  font-size: 14px;
+}
+#principal{
+  width: 1200px;
+  margin: auto;
+  border: 1px solid #aac;
+}
+#cabecalho, #conteudo, #rodape, #nav, #aside {padding: 10px;}
+#cabecalho, #rodape{
+  background-color: #aac;
+}
+#cabecalho{
+    border-bottom: 1px solid #aac;
+
+}
+#rodape{
+    border-top: 1px solid #aac;
+    clear: both;
+    text-align: center;
+}
+#conteudo{
+  float: left;
+  width: 700px;
+  border-left: 1px solid #aac;
+  border-right: 1px solid #aac;
+}
+#nav{
+  float: left;
+  width: 200px;
+  text-align: left;
+}
+#aside{
+  float: left;
+  width: 237px;
+  text-align: right;
+}
+#parteUm{
+  border : 1px solid #aac;
+  padding: 10px;
+}
+
+#novo_post{
+  padding: 10px;
+}
+
+#titulo_novo_post{
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  width: 510px;
+}
+
+.post{
+  border : 1em solid #aac;
+  padding: 10px;
+}
+.coment_title{
+  padding:  10px;
+  border-bottom: 0px;
+  padding-bottom: 0px;
+
+   font-weight: bolder;
+}
+.coment_body{
+   padding:  10px;
+   background-color: #769FAD;
+   font-style: italic;
+}
+
+.coments{
+  border: 3px;
+  padding: 10px;
+  background-color: #BCD9E3;
+}
+
+.coment{
+  background-color: #8FBAC9;
+}
+.link_coments{
+  border: 5px solid white;
+  background-color: #8D8E8F;
+  padding: 5px;
+}
+
+a,a:visited{
+  color: black;
+  text-decoration: none;
+}
+.link{
+  background-color: #8D8E8F;
+  padding: 5px;
+  border: 1px solid black;
+  margin-left: 1070px;
+
+}
+.novo_comment{
+  padding: 10px;
+}
+.lista_usuario{
+  list-style-type: none;
+}
+
+.lista_usuario li{
+  text-align: center;
+  margin-right: 10px;
+  background:#fff;
+  padding:5px;
+  border:1px inset #cccccc;
+}
+
+.lista_usuario li:hover{
+  background-color: #999;
+}
