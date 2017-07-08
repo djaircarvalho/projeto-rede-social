@@ -1,0 +1,1 @@
+# Simple blog jersey application
